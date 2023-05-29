@@ -6,7 +6,7 @@ public class Main {
             System.out.println("i = " + i);
         }
 
-        int one = 1;
+      /*  int one = 1;
         String name = "ama";
         double dec = 9.0223;
 
@@ -44,6 +44,15 @@ public class Main {
                 break;
             default:
                 System.out.println("Enjoy your weekend");
+
+        }*/
+
+        String[] test = {"good", "better", "best"};
+        test[1] = "bad";
+        System.out.println(test.length + test[1]);
+
+        for (int i = 0; i <= test.length; i++){
+            System.out.println("Congratulations");
         }
     }
 }
